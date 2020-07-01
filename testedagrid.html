@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--  Estilo CSS -->
+    <link rel="stylesheet" href="testedagrid.css">
+
+    <!--  Script -->
+    <script type="text/javascript" src="meuarquivo.js"></script>
+
+    <!--  Bootstrap-->
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+
+    <!--
+Desafio 1: Preparar o site para ser apresentado em telas mobile. Fica a critério do participante a melhor forma de ajustar o conteúdo do site para plataformas mobile. Para avaliar esse desafio extra, nossa equipe vai abrir o mesmo arquivo index.html em um iphoneX. (exemplo no arquivo responsive.png)
+
+Desafio 2: Realizar a verificação de email válido no texto digitado pelo usuário no campo "email". Essa verificação deve ser realizada utilizando javascript. Se o email for inválido a mensagem "Email inválido" deve ser apresentada no site utilizando a função alert() do javascript.
+
+Desafio 3: Incluir um texto de boas vindas quando o usuário enviar seu email. Quando o usuário clicar no botão enviar, a página deve ser atualizada para incluir um texto no formato "Bem vindo <email digitado pelo participante>!".
+-->
+
+    <div class="container-fluid">
+
+
+        <div class="row-3   ">
+
+            <div class="cor1      ">
+                <h1>Projeto Seletivo Labenu</h1>
+
+
+                <img src="Labenu_logo.png">
+
+
+                <h2>Turmas de 2020</h2>
+
+
+
+
+            </div>
+
+            <div class="cor2">
+
+                <section class="container">
+
+                    <div class="janela">HTML</div>
+                    <div class="janela">CSS</div>
+                    <div class="janela">JavaScript</div>
+
+                </section>
+
+
+
+
+            </div>
+            <div class="cor3">
+
+                <form name="f1">
+
+                    <input type="text" name="email" onblur="validacaoEmail(f1.email)"
+                        placeholder="Coloque seu e-mail para contato! :)" maxlength="60" class="email">
+
+                    <input name="submit" type="submit" value=" ENVIAR " class="submit" />
+
+                    <div id="msgemail"></div>
+
+
+
+                </form>
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
