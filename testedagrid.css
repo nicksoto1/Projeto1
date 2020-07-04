@@ -1,0 +1,116 @@
+html,
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0px;
+
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 50px;
+    font-size: 20px;
+
+}
+
+img {
+
+
+    width:300px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+
+h2 {
+    display: block;
+    margin-left: auto;
+    margin-right: 10px;
+    text-align: right;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-size: 20px;
+}
+
+.container {
+    background-color: orangered;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+    line-height: 100px;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+}
+
+
+
+.janela {
+    height: 100px;
+    width: 100px;
+    color: orangered;
+    background: white;
+    margin: 6px;
+
+}
+
+
+
+form {
+    
+    padding-top: 15px;
+    text-align: center;
+
+
+}
+
+.email {
+    width: 230px;
+    height: 50px;
+    
+}
+
+.submit {
+    background-color: orangered;
+    cursor: pointer;
+    color: white;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+    height: 52px;
+   
+}
+
+.linha {
+    height: 200px;
+}
+
+.cor1 {
+    background : rgb(98, 108, 190);
+    height: 400px;
+}
+
+.cor2 {
+    background: orangered;
+    height: 180px;
+}
+
+.cor3 {
+    background: rgb(187, 187, 206);
+    height: 375px;
+}
