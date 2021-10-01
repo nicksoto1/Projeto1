@@ -1,24 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt">
-
-
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <!--  Estilo CSS -->
-    <link rel="stylesheet" href="testedagrid.css">
+    <link rel="stylesheet" href="testedagrid.css" />
 
     <!--  Script -->
     <script type="text/javascript" src="meuarquivo.js"></script>
 
     <!--  Bootstrap-->
-    <link rel="stylesheet" href="bootstrap.min.css">
-</head>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+  </head>
 
-<body>
-
+  <body>
     <!--
 Desafio 1: Preparar o site para ser apresentado em telas mobile. Fica a critério do participante a melhor forma de ajustar o conteúdo do site para plataformas mobile. Para avaliar esse desafio extra, nossa equipe vai abrir o mesmo arquivo index.html em um iphoneX. (exemplo no arquivo responsive.png)
 
@@ -28,63 +24,46 @@ Desafio 3: Incluir um texto de boas vindas quando o usuário enviar seu email. Q
 -->
 
     <div class="container-fluid">
+      <div class="row-3">
+        <div class="cor1">
+          <h1>Projeto Seletivo Labenu</h1>
 
-
-        <div class="row-3   ">
-
-            <div class="cor1      ">
-                <h1>Projeto Seletivo Labenu</h1>
-
-
-                <img src="Labenu_logo.png">
-
-
-                <h2>Turmas de 2020</h2>
-
-
-
-
-            </div>
-
-            <div class="cor2">
-
-                <section class="container">
-
-                    <div class="janela">HTML</div>
-                    <div class="janela">CSS</div>
-                    <div class="janela">JavaScript</div>
-
-                </section>
-
-
-
-
-            </div>
-            <div class="cor3">
-
-                <form name="f1">
-
-                    <input type="text" name="email" onblur="validacaoEmail(f1.email)"
-                        placeholder="Coloque seu e-mail para contato! :)" maxlength="60" class="email">
-
-                    <input name="submit" type="submit" value=" ENVIAR " class="submit" />
-
-                    <div id="msgemail"></div>
-
-
-
-                </form>
-
-
-
-
-
-
-
-            </div>
+          <img src="Labenu_logo.png" />
+          <h2>Turmas de 2020</h2>
         </div>
+          
+       
+
+        <div class="cor2">
+          <section class="container">
+            <div class="janela">HTML</div>
+            <div class="janela">CSS</div>
+            <div class="janela">JavaScript</div>
+          </section>
+        </div>
+        <div class="cor3">
+            
+          <form name="f1">
+            <input
+              type="text"
+              name="email"
+              onblur="validacaoEmail(f1.email)"
+              placeholder="Coloque seu e-mail para contato! :)"
+              maxlength="60"
+              class="email"
+            />
+
+            <input
+              name="submit"
+              type="submit"
+              value=" ENVIAR "
+              class="submit"
+            />
+
+            <div id="msgemail"></div>
+          </form>
+        </div>
+      </div>
     </div>
-
-</body>
-
+  </body>
 </html>
