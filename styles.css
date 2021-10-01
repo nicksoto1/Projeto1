@@ -77,8 +77,8 @@ form {
 .email {
 
     height: 2rem;
-    width: 1rem ; 
-    min-width: 60%;
+    width: 12rem ; 
+    max-width: 100%;
      
 }
 
